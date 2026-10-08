@@ -4,9 +4,9 @@
  * - Google 字型：用過一次就存起來（離線時還在）。
  * - Azure 語音的請求（microsoft.com）完全不經過這裡，也不會被快取。
  */
-var VERSION = '20261007-8ae007';
+var VERSION = '20261008-07e556';
 var SHELL = 'elc-shell-' + VERSION, AUDIO = 'elc-audio-v1', FONTS = 'elc-fonts-v1';
-var SHELL_FILES = ['./', 'index.html', 'store.js?v=20261007-8ae007', 'speech.js?v=20261007-8ae007', 'manifest.json', 'icons/icon-192.png', 'icons/icon-512.png', 'apple-touch-icon.png'];
+var SHELL_FILES = ['./', 'index.html', 'store.js?v=20261008-07e556', 'speech.js?v=20261008-07e556', 'manifest.json', 'icons/icon-192.png', 'icons/icon-512.png', 'apple-touch-icon.png'];
 
 function rangeResponse(res, header) {
   return res.arrayBuffer().then(function (buf) {
